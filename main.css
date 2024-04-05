@@ -1,0 +1,109 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+.panel{
+    width: 100%;
+    height: 100%;
+    gap: 1em  ;
+     
+    display: flex; 
+     flex-direction: column;
+     margin-left: 5em;
+}
+section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+   
+    align-items: center;
+}
+.line{
+    display: flex;
+    justify-content: space-around;
+   
+} 
+input{
+    text-align: end;
+}
+
+input:disabled{
+    background-color: #fff;
+    color: #fff;
+}
+
+.number{
+    padding: 0.5em;
+    margin: 0.5em;
+    text-align: center;
+    background-color: gray; 
+    border-radius: 10px;
+}
+.remov-one {
+    padding: 0.5em;
+    text-align: center;
+    background-color: antiquewhite; 
+    border-radius: 10px;
+    margin: 0.5em;
+}
+.clear{
+    padding: 0.5em;
+    text-align: center;
+    background-color: antiquewhite; 
+    border-radius: 10px;
+    margin: 0.5em;
+}
+.rest{
+    padding: 0.5em;
+    text-align: center;
+    background-color: antiquewhite; 
+    border-radius: 10px;
+    margin: 0.5em;
+}
+.dividir{
+    padding: 0.5em;
+    text-align: center;
+    background-color: antiquewhite; 
+    border-radius: 10px;
+    margin: 0.5em;
+}
+.igual{
+    padding: 0.5em;
+    text-align: center;
+    background-color: antiquewhite; 
+    border-radius: 10px;
+    margin: 0.5em;
+}
+.mult{
+    padding: 0.5em;
+    text-align: center;
+    background-color: antiquewhite; 
+    border-radius: 10px;
+    margin: 0.5em;
+}
+.sum{
+    padding: 0.5em;
+    text-align: center;
+    background-color: antiquewhite; 
+    border-radius: 10px;
+    margin: 0.5em;
+}
+span{
+    padding: 0.5em;
+    margin: 0.5em;
+    text-align: center;
+    background-color: gray; 
+    border-radius: 10px;
+
+}
