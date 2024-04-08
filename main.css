@@ -116,3 +116,23 @@ span{
     border-radius: 10px;
 
 }
+.item_historial{
+    border-radius: 10px;
+    padding: 0.2em;
+    background-color: grey;
+    width: 100%;
+    
+}
+.historial{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: start;
+    justify-content: start;
+
+}
+.box_historial{
+    display: flex;
+    flex-direction: column;
+    gap:0.5em;
+}
