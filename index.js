@@ -30,9 +30,6 @@ $clear.addEventListener("click",()=>{
     $input.value=""
 })
 
-
-
-
 $rest.addEventListener("click" , ()=>{
     $input.value=$input.value.concat("-")
 })
@@ -70,6 +67,10 @@ function getOperationInLocalStorage(){
         operaciones=items
     }
 }
+
+window.addEventListener("keydown",()=>{
+    
+})
 function createHistorial(){
     getOperationInLocalStorage()    
     $box_historial.innerHTML=""
